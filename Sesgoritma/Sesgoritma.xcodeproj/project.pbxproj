@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB81772B2062DD10001B2023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81772A2062DD10001B2023 /* AppDelegate.swift */; };
+		EB81772D2062DD10001B2023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81772C2062DD10001B2023 /* ViewController.swift */; };
+		EB8177302062DD10001B2023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB81772E2062DD10001B2023 /* Main.storyboard */; };
+		EB8177322062DD10001B2023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8177312062DD10001B2023 /* Assets.xcassets */; };
+		EB8177352062DD10001B2023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8177332062DD10001B2023 /* LaunchScreen.storyboard */; };
+		EB8177402062DDCD001B2023 /* Sesgoritma.png in Resources */ = {isa = PBXBuildFile; fileRef = EB81773F2062DDCD001B2023 /* Sesgoritma.png */; };
+		EB93DD382064096F00B02EE6 /* Sesgoritma.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB93DD372064096F00B02EE6 /* Sesgoritma.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB8177272062DD10001B2023 /* Sesgoritma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesgoritma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB81772A2062DD10001B2023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB81772C2062DD10001B2023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB81772F2062DD10001B2023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB8177312062DD10001B2023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB8177342062DD10001B2023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB8177362062DD10001B2023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB81773F2062DDCD001B2023 /* Sesgoritma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sesgoritma.png; sourceTree = "<group>"; };
+		EB93DD372064096F00B02EE6 /* Sesgoritma.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Sesgoritma.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB8177242062DD10001B2023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB81771E2062DD10001B2023 = {
+			isa = PBXGroup;
+			children = (
+				EB8177292062DD10001B2023 /* Sesgoritma */,
+				EB8177282062DD10001B2023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8177282062DD10001B2023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8177272062DD10001B2023 /* Sesgoritma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8177292062DD10001B2023 /* Sesgoritma */ = {
+			isa = PBXGroup;
+			children = (
+				EBC67303206403850089B047 /* CoreML Models */,
+				EB81773E2062DDC2001B2023 /* Assets */,
+				EB81772A2062DD10001B2023 /* AppDelegate.swift */,
+				EB81772C2062DD10001B2023 /* ViewController.swift */,
+				EB81772E2062DD10001B2023 /* Main.storyboard */,
+				EB8177312062DD10001B2023 /* Assets.xcassets */,
+				EB8177332062DD10001B2023 /* LaunchScreen.storyboard */,
+				EB8177362062DD10001B2023 /* Info.plist */,
+			);
+			path = Sesgoritma;
+			sourceTree = "<group>";
+		};
+		EB81773E2062DDC2001B2023 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EB81773F2062DDCD001B2023 /* Sesgoritma.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EBC67303206403850089B047 /* CoreML Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB93DD372064096F00B02EE6 /* Sesgoritma.mlmodel */,
+			);
+			path = "CoreML Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB8177262062DD10001B2023 /* Sesgoritma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8177392062DD10001B2023 /* Build configuration list for PBXNativeTarget "Sesgoritma" */;
+			buildPhases = (
+				EB8177232062DD10001B2023 /* Sources */,
+				EB8177242062DD10001B2023 /* Frameworks */,
+				EB8177252062DD10001B2023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sesgoritma;
+			productName = Sesgoritma;
+			productReference = EB8177272062DD10001B2023 /* Sesgoritma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB81771F2062DD10001B2023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Sesgoritma;
+				TargetAttributes = {
+					EB8177262062DD10001B2023 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB8177222062DD10001B2023 /* Build configuration list for PBXProject "Sesgoritma" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB81771E2062DD10001B2023;
+			productRefGroup = EB8177282062DD10001B2023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8177262062DD10001B2023 /* Sesgoritma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB8177252062DD10001B2023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8177352062DD10001B2023 /* LaunchScreen.storyboard in Resources */,
+				EB8177322062DD10001B2023 /* Assets.xcassets in Resources */,
+				EB8177402062DDCD001B2023 /* Sesgoritma.png in Resources */,
+				EB8177302062DD10001B2023 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB8177232062DD10001B2023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB81772D2062DD10001B2023 /* ViewController.swift in Sources */,
+				EB93DD382064096F00B02EE6 /* Sesgoritma.mlmodel in Sources */,
+				EB81772B2062DD10001B2023 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB81772E2062DD10001B2023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB81772F2062DD10001B2023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB8177332062DD10001B2023 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8177342062DD10001B2023 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB8177372062DD10001B2023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB8177382062DD10001B2023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB81773A2062DD10001B2023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEVELOPMENT_TEAM = WVHK6CF86V;
+				INFOPLIST_FILE = Sesgoritma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sesgoritma.Sesgoritma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB81773B2062DD10001B2023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEVELOPMENT_TEAM = WVHK6CF86V;
+				INFOPLIST_FILE = Sesgoritma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sesgoritma.Sesgoritma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB8177222062DD10001B2023 /* Build configuration list for PBXProject "Sesgoritma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8177372062DD10001B2023 /* Debug */,
+				EB8177382062DD10001B2023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8177392062DD10001B2023 /* Build configuration list for PBXNativeTarget "Sesgoritma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB81773A2062DD10001B2023 /* Debug */,
+				EB81773B2062DD10001B2023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB81771F2062DD10001B2023 /* Project object */;
+}
