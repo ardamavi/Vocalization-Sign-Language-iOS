@@ -33,7 +33,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
         captureSession.sessionPreset = .photo
         
-        guard let captureDevice = AVCaptureDevice.default(for: .video) else {return}
+        guard let captureDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back) else {return}
+        
         guard let input = try? AVCaptureDeviceInput(device: captureDevice) else {return}
         captureSession.addInput(input)
         
@@ -59,25 +60,30 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
             guard let results = fineshedReq.results as? [VNClassificationObservation] else {return}
             guard let firstObservation = results.first else {return}
             
-            if firstObservation.confidence < 0.4{ // For secondary vocalization
-                self.old_char = ""
-                DispatchQueue.main.async {
-                    self.predictLabel.text = String(firstObservation.identifier)
+            
+            // print(firstObservation.identifier, firstObservation.confidence)
+            DispatchQueue.main.async {
+                if firstObservation.confidence < 0.4{
+                    
+                    // For secondary vocalization
+                    self.old_char = "Sesgoritma"
+                    self.predictLabel.text = self.old_char
+                    
+                }else if self.old_char != String(firstObservation.identifier) && firstObservation.confidence > 0.6{
+                    
+                    self.predictLabel.text =  String(firstObservation.identifier)
+                    
+                    self.utterance = AVSpeechUtterance(string: String(firstObservation.identifier))
+                    self.utterance.voice = AVSpeechSynthesisVoice(language: AVSpeechSynthesisVoice.currentLanguageCode())
+                    self.synth.speak(self.utterance)
+                    self.old_char = String(firstObservation.identifier)
+                    
                 }
             }
             
-            if self.old_char != firstObservation.identifier && firstObservation.confidence > 0.6{
-                // print(firstObservation.identifier, firstObservation.confidence)
-                DispatchQueue.main.async {
-                    self.predictLabel.text = String(firstObservation.identifier)
-                }
-            
-                self.utterance = AVSpeechUtterance(string: String(firstObservation.identifier))
-                self.utterance.voice = AVSpeechSynthesisVoice(language: AVSpeechSynthesisVoice.currentLanguageCode())
-                self.synth.speak(self.utterance)
-                self.old_char = String(firstObservation.identifier)
-            }
         }
+        
+        request.imageCropAndScaleOption = .centerCrop
         
         try? VNImageRequestHandler(cvPixelBuffer: pixelBuffer, options: [:]).perform([request])
         

@@ -13,7 +13,7 @@
 		EB8177322062DD10001B2023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8177312062DD10001B2023 /* Assets.xcassets */; };
 		EB8177352062DD10001B2023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8177332062DD10001B2023 /* LaunchScreen.storyboard */; };
 		EB8177402062DDCD001B2023 /* Sesgoritma.png in Resources */ = {isa = PBXBuildFile; fileRef = EB81773F2062DDCD001B2023 /* Sesgoritma.png */; };
-		EB93DD382064096F00B02EE6 /* Sesgoritma.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB93DD372064096F00B02EE6 /* Sesgoritma.mlmodel */; };
+		EB92C84D2067F3BA00A89E67 /* Sesgoritma.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB92C84C2067F3BA00A89E67 /* Sesgoritma.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		EB8177342062DD10001B2023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB8177362062DD10001B2023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB81773F2062DDCD001B2023 /* Sesgoritma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sesgoritma.png; sourceTree = "<group>"; };
-		EB93DD372064096F00B02EE6 /* Sesgoritma.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Sesgoritma.mlmodel; sourceTree = "<group>"; };
+		EB92C84C2067F3BA00A89E67 /* Sesgoritma.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Sesgoritma.mlmodel; path = ../../../Keras2CoreML/Sesgoritma.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		EBC67303206403850089B047 /* CoreML Models */ = {
 			isa = PBXGroup;
 			children = (
-				EB93DD372064096F00B02EE6 /* Sesgoritma.mlmodel */,
+				EB92C84C2067F3BA00A89E67 /* Sesgoritma.mlmodel */,
 			);
 			path = "CoreML Models";
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB81772D2062DD10001B2023 /* ViewController.swift in Sources */,
-				EB93DD382064096F00B02EE6 /* Sesgoritma.mlmodel in Sources */,
+				EB92C84D2067F3BA00A89E67 /* Sesgoritma.mlmodel in Sources */,
 				EB81772B2062DD10001B2023 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,21 +1,23 @@
 # Vocalization Sign Language iOS
-### By Arda Mavi
+### By Arda Mavi & Zeynep Dikle
 
 Vocalization sign language iOS App with deep learning.
 
+### The under construction!
+### Coming Soon!
+
 In this project we create iOS app for our [Vocalize Sign Language](https://github.com/ardamavi/Vocalize-Sign-Language) project using CoreML with Swift.
 
-## The under construction!
-
-For more details of `Deep Learning` model, look up our `Vocalize Sign Language` project: [github.com/ardamavi/Vocalize-Sign-Language](https://github.com/ardamavi/Vocalize-Sign-Language)
+For more details of `Deep Learning` model, look up our [Vocalize-Sign-Language](https://github.com/ardamavi/Vocalize-Sign-Language) project.
 
 In this project we use our own [Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset).
 
-### Important Notes:
+## Important Notes:
 - Install necessary modules with `sudo pip3 install -r requirements.txt` command.
-- Used Swift Version: 4.0
-- Used XCode Version: 9.2
-- Used iOS Version: 11.2.6
-- Used coremltools Version: 0.8
-- Used Keras Version: 2.1.5
-- Used TensorFlow Version: 1.1.0
+### Versions of used modules:
+- Swift: 4.0
+- XCode: 9.2
+- iOS: 11.2.6
+- coremltools: 0.8
+- Keras: 2.1.5
+- TensorFlow: 1.1.0
