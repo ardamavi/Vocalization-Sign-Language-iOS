@@ -60,7 +60,6 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
             guard let results = fineshedReq.results as? [VNClassificationObservation] else {return}
             guard let firstObservation = results.first else {return}
             
-            
             // print(firstObservation.identifier, firstObservation.confidence)
             DispatchQueue.main.async {
                 if firstObservation.confidence < 0.4{
@@ -75,7 +74,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
                     
                     self.utterance = AVSpeechUtterance(string: String(firstObservation.identifier))
                     self.utterance.voice = AVSpeechSynthesisVoice(language: AVSpeechSynthesisVoice.currentLanguageCode())
-                    self.synth.speak(self.utterance)
+                    self.synth.stopSpeaking(at: AVSpeechBoundary.immediate)
+                    self.synth.speak(self.utterance) // For mute the previous speak.
                     self.old_char = String(firstObservation.identifier)
                     
                 }
