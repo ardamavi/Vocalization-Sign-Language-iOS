@@ -52,6 +52,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection){
         
+        connection.videoOrientation = AVCaptureVideoOrientation.portrait
+        
         guard let pixelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {return}
 
         guard let model = try? VNCoreMLModel(for: Sesgoritma().model) else {return}

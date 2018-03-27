@@ -19,16 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qV-Uv-po6">
-                                <rect key="frame" x="47" y="602" width="280" height="45"/>
+                                <rect key="frame" x="47" y="599" width="280" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.68619841339999998" green="0.68631839750000001" blue="0.68619090319999998" alpha="0.1010673415" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="Anasayfa'ya dön">
+                                <state key="normal" title="Back to Home">
                                     <color key="titleColor" red="0.26223893149999999" green="0.55574510290000001" blue="0.66572764390000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="stop_captureSession:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E7K-2v-WXr"/>
-                                    <segue destination="Wth-yD-v6m" kind="show" id="RMh-Qg-lWy"/>
+                                    <segue destination="Wth-yD-v6m" kind="modal" modalTransitionStyle="crossDissolve" id="RMh-Qg-lWy"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sesgoritma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shT-6Y-JVH">
@@ -63,22 +63,33 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.68619841339999998" green="0.68631839750000001" blue="0.68619090319999998" alpha="0.1010673415" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="Anasayfa'ya dön">
+                                <state key="normal" title="Back to Home">
                                     <color key="titleColor" red="0.26223893149999999" green="0.55574510290000001" blue="0.66572764390000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Wth-yD-v6m" kind="show" id="G4u-ca-1Nb"/>
+                                    <segue destination="Wth-yD-v6m" kind="modal" modalTransitionStyle="flipHorizontal" id="G4u-ca-1Nb"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sesgoritma.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cmq-dI-KTX">
+                                <rect key="frame" x="37" y="48" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Arda Mavi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hol-xb-eCw">
-                                <rect key="frame" x="16" y="444" width="179" height="56"/>
+                                <rect key="frame" x="16" y="460" width="179" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Created by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egA-ir-aKT">
+                                <rect key="frame" x="97" y="404" width="179" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zeynep Dikle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ny9-Qc-txg">
-                                <rect key="frame" x="180" y="444" width="179" height="56"/>
+                                <rect key="frame" x="179" y="460" width="179" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -110,11 +121,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.68619841339999998" green="0.68631839750000001" blue="0.68619090319999998" alpha="0.1010673415" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Hakkında">
+                                <state key="normal" title="Info">
                                     <color key="titleColor" red="0.26223893149999999" green="0.55574510290000001" blue="0.66572764390000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gT6-ZT-hxk" kind="show" id="uCL-xM-7lU"/>
+                                    <segue destination="gT6-ZT-hxk" kind="modal" modalTransitionStyle="flipHorizontal" id="uCL-xM-7lU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnB-i0-KxC">
@@ -122,11 +133,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.68619841339999998" green="0.68631839750000001" blue="0.68619090319999998" alpha="0.1010673415" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="Başla">
+                                <state key="normal" title="Start">
                                     <color key="titleColor" red="0.26223893149999999" green="0.55574510290000001" blue="0.66572764390000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="28t-1E-z84"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="28t-1E-z84"/>
                                 </connections>
                             </button>
                         </subviews>

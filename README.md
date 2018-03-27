@@ -2,9 +2,10 @@
 ### By Arda Mavi & Zeynep Dikle
 
 Vocalization sign language iOS App with deep learning.
+For now, this project works best in the white(or black) background and good light.
 
 ### The under construction!
-### Coming Soon!
+### New classes and documentation coming soon!
 
 In this project we create iOS app for our [Vocalize Sign Language](https://github.com/ardamavi/Vocalize-Sign-Language) project using CoreML with Swift.
 
