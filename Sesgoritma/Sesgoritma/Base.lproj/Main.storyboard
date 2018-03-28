@@ -144,6 +144,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TIo-Bw-JQd"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9AM-Bd-vt4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a33-L9-3aF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -154,6 +155,6 @@
         <image name="Sesgoritma.png" width="500" height="500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RMh-Qg-lWy"/>
+        <segue reference="G4u-ca-1Nb"/>
     </inferredMetricsTieBreakers>
 </document>

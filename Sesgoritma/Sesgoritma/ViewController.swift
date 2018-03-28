@@ -22,11 +22,14 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     @IBAction func stop_captureSession(_ sender: UIButton) {
         captureSession.stopRunning()
         synth.stopSpeaking(at: AVSpeechBoundary.immediate)
+        UIApplication.shared.isIdleTimerDisabled = false
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        UIApplication.shared.isIdleTimerDisabled = true
         
         try? AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
         try? AVAudioSession.sharedInstance().setActive(true)
