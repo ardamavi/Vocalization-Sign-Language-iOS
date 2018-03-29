@@ -28,7 +28,7 @@
                                 </state>
                                 <connections>
                                     <action selector="stop_captureSession:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E7K-2v-WXr"/>
-                                    <segue destination="Wth-yD-v6m" kind="modal" modalTransitionStyle="crossDissolve" id="RMh-Qg-lWy"/>
+                                    <segue destination="Wth-yD-v6m" kind="presentation" modalTransitionStyle="crossDissolve" id="RMh-Qg-lWy"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sesgoritma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shT-6Y-JVH">
@@ -67,7 +67,7 @@
                                     <color key="titleColor" red="0.26223893149999999" green="0.55574510290000001" blue="0.66572764390000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Wth-yD-v6m" kind="modal" modalTransitionStyle="flipHorizontal" id="G4u-ca-1Nb"/>
+                                    <segue destination="Wth-yD-v6m" kind="presentation" modalTransitionStyle="flipHorizontal" id="G4u-ca-1Nb"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sesgoritma.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cmq-dI-KTX">
@@ -125,7 +125,7 @@
                                     <color key="titleColor" red="0.26223893149999999" green="0.55574510290000001" blue="0.66572764390000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gT6-ZT-hxk" kind="modal" modalTransitionStyle="flipHorizontal" id="uCL-xM-7lU"/>
+                                    <segue destination="gT6-ZT-hxk" kind="presentation" modalTransitionStyle="flipHorizontal" id="uCL-xM-7lU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnB-i0-KxC">
@@ -137,7 +137,7 @@
                                     <color key="titleColor" red="0.26223893149999999" green="0.55574510290000001" blue="0.66572764390000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="28t-1E-z84"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="28t-1E-z84"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -155,6 +155,6 @@
         <image name="Sesgoritma.png" width="500" height="500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="G4u-ca-1Nb"/>
+        <segue reference="RMh-Qg-lWy"/>
     </inferredMetricsTieBreakers>
 </document>
