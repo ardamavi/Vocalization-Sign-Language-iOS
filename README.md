@@ -9,8 +9,8 @@ For now, this project works best in the white(or black) background and good ligh
 
 |`Sign Language Digits` Demo|
 |:-:|
-|<img src="Assets/Digit Data Demo - Sreenshot.jpeg" height="400">|
-|Watch Demo Video: [Demo Video](Assets/Digit Data - Demo Video.mov)|
+|<img src="Assets/Digit Data Demo - Sreenshot.jpeg" href="https://github.com/ardamavi/Vocalization-Sign-Language-iOS/blob/master/Assets/Digit%20Data%20-%20Demo%20Video.mov" height="400">|
+|[Watch Demo Video](https://github.com/ardamavi/Vocalization-Sign-Language-iOS/blob/master/Assets/Digit%20Data%20-%20Demo%20Video.mov)|
 
 In this project we create iOS app for our [Vocalize Sign Language](https://github.com/ardamavi/Vocalize-Sign-Language) project using CoreML with Swift.
 
