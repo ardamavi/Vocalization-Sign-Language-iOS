@@ -13,7 +13,6 @@
 		EB8177302062DD10001B2023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB81772E2062DD10001B2023 /* Main.storyboard */; };
 		EB8177322062DD10001B2023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8177312062DD10001B2023 /* Assets.xcassets */; };
 		EB8177352062DD10001B2023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8177332062DD10001B2023 /* LaunchScreen.storyboard */; };
-		EB8177402062DDCD001B2023 /* Sesgoritma.png in Resources */ = {isa = PBXBuildFile; fileRef = EB81773F2062DDCD001B2023 /* Sesgoritma.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		EB8177312062DD10001B2023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8177342062DD10001B2023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB8177362062DD10001B2023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB81773F2062DDCD001B2023 /* Sesgoritma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sesgoritma.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,6 @@
 		EB8177292062DD10001B2023 /* Sesgoritma */ = {
 			isa = PBXGroup;
 			children = (
-				EB81773E2062DDC2001B2023 /* Assets */,
 				EBC67303206403850089B047 /* CoreML Models */,
 				EB81772A2062DD10001B2023 /* AppDelegate.swift */,
 				EB81772C2062DD10001B2023 /* ViewController.swift */,
@@ -68,14 +65,6 @@
 				EB8177362062DD10001B2023 /* Info.plist */,
 			);
 			path = Sesgoritma;
-			sourceTree = "<group>";
-		};
-		EB81773E2062DDC2001B2023 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				EB81773F2062DDCD001B2023 /* Sesgoritma.png */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		EBC67303206403850089B047 /* CoreML Models */ = {
@@ -147,7 +136,6 @@
 			files = (
 				EB8177352062DD10001B2023 /* LaunchScreen.storyboard in Resources */,
 				EB8177322062DD10001B2023 /* Assets.xcassets in Resources */,
-				EB8177402062DDCD001B2023 /* Sesgoritma.png in Resources */,
 				EB8177302062DD10001B2023 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,6 +35,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         }
         captureSession = AVCaptureSession()
         view.layer.sublayers?[0].removeFromSuperlayer()
+        old_char = ""
         self.viewDidLoad()
     }
     

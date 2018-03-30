@@ -26,7 +26,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qV-Uv-po6">
-                                <rect key="frame" x="30" y="595" width="231" height="52"/>
+                                <rect key="frame" x="35" y="595" width="236" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.68619841339999998" green="0.68631839750000001" blue="0.68619090319999998" alpha="0.1010673415" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
@@ -38,14 +38,11 @@
                                     <segue destination="Wth-yD-v6m" kind="presentation" modalTransitionStyle="crossDissolve" id="RMh-Qg-lWy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPn-i4-Ga3">
-                                <rect key="frame" x="269" y="604" width="75" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPn-i4-Ga3">
+                                <rect key="frame" x="287" y="595" width="52" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.68619841339999998" green="0.68631839750000001" blue="0.68619090319999998" alpha="0.1010673415" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Camera">
-                                    <color key="titleColor" red="0.26223893149999999" green="0.55574510290000001" blue="0.66572764390000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" image="Change Camera Icn"/>
                                 <connections>
                                     <action selector="change_camera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nbm-5T-snG"/>
                                 </connections>
@@ -82,7 +79,7 @@
                                     <segue destination="Wth-yD-v6m" kind="presentation" modalTransitionStyle="flipHorizontal" id="G4u-ca-1Nb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sesgoritma.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cmq-dI-KTX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sesgoritma" translatesAutoresizingMaskIntoConstraints="NO" id="Cmq-dI-KTX">
                                 <rect key="frame" x="37" y="48" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -124,7 +121,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sesgoritma.png" translatesAutoresizingMaskIntoConstraints="NO" id="tmg-rH-xc8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sesgoritma" translatesAutoresizingMaskIntoConstraints="NO" id="tmg-rH-xc8">
                                 <rect key="frame" x="36" y="50" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -164,7 +161,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Sesgoritma.png" width="500" height="500"/>
+        <image name="Change Camera Icn" width="200" height="200"/>
+        <image name="Sesgoritma" width="500" height="500"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="RMh-Qg-lWy"/>
