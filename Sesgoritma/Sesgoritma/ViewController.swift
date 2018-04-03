@@ -17,6 +17,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     let synth = AVSpeechSynthesizer()
     var cameraPos = AVCaptureDevice.Position.back
     var captureDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: AVCaptureDevice.Position.back)
+    var def_bright = UIScreen.main.brightness // Default screen brightness
     var old_char = ""
     
     @IBOutlet var predictLabel: UILabel!
@@ -24,6 +25,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         captureSession.stopRunning()
         synth.stopSpeaking(at: AVSpeechBoundary.immediate)
         UIApplication.shared.isIdleTimerDisabled = false
+        UIScreen.main.brightness = def_bright
     }
     @IBAction func change_camera(_ sender: Any) {
         captureSession.stopRunning()
@@ -31,19 +33,44 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         if cameraPos == AVCaptureDevice.Position.back{
             cameraPos = AVCaptureDevice.Position.front
         }else{
+            if UIScreen.main.brightness != def_bright{
+                UIScreen.main.brightness = def_bright
+            }
             cameraPos = AVCaptureDevice.Position.back
+        }
+        if lightSwitch.isOn{
+            lightSwitch.setOn(false, animated: true)
         }
         captureSession = AVCaptureSession()
         view.layer.sublayers?[0].removeFromSuperlayer()
         old_char = ""
         self.viewDidLoad()
     }
+    @IBOutlet var lightSwitch: UISwitch!
+    @IBAction func change_light(_ sender: UISwitch) {
+        if cameraPos == AVCaptureDevice.Position.back{
+            try? captureDevice?.lockForConfiguration()
+            if sender.isOn{
+                try? captureDevice?.setTorchModeOn(level: 1.0)
+            }else{
+                captureDevice?.torchMode = .off
+            }
+            captureDevice?.unlockForConfiguration()
+        }else{
+            if sender.isOn{
+                def_bright = UIScreen.main.brightness
+                UIScreen.main.brightness = CGFloat(1)
+            }else{
+                UIScreen.main.brightness = def_bright
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        UIApplication.shared.isIdleTimerDisabled = true
+        UIApplication.shared.isIdleTimerDisabled = true // Deactivate sleep mode
         
         try? AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
         try? AVAudioSession.sharedInstance().setActive(true)
@@ -87,7 +114,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
                     self.old_char = "Sesgoritma"
                     self.predictLabel.text = self.old_char
                     
-                }else if self.old_char != String(firstObservation.identifier) && firstObservation.confidence > 0.6{
+                }else if self.old_char != String(firstObservation.identifier) && firstObservation.confidence > 0.7{
                     
                     self.predictLabel.text =  String(firstObservation.identifier)
                     

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB0C3804206E775D00B37E68 /* Sesgoritma.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB0C3803206E775D00B37E68 /* Sesgoritma.mlmodel */; };
+		EB6C4A51207429570085463E /* Sesgoritma.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB6C4A50207429570085463E /* Sesgoritma.mlmodel */; };
 		EB81772B2062DD10001B2023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81772A2062DD10001B2023 /* AppDelegate.swift */; };
 		EB81772D2062DD10001B2023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81772C2062DD10001B2023 /* ViewController.swift */; };
 		EB8177302062DD10001B2023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB81772E2062DD10001B2023 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EB0C3803206E775D00B37E68 /* Sesgoritma.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Sesgoritma.mlmodel; sourceTree = "<group>"; };
+		EB6C4A50207429570085463E /* Sesgoritma.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Sesgoritma.mlmodel; sourceTree = "<group>"; };
 		EB8177272062DD10001B2023 /* Sesgoritma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesgoritma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB81772A2062DD10001B2023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB81772C2062DD10001B2023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		EBC67303206403850089B047 /* CoreML Models */ = {
 			isa = PBXGroup;
 			children = (
-				EB0C3803206E775D00B37E68 /* Sesgoritma.mlmodel */,
+				EB6C4A50207429570085463E /* Sesgoritma.mlmodel */,
 			);
 			path = "CoreML Models";
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB81772D2062DD10001B2023 /* ViewController.swift in Sources */,
-				EB0C3804206E775D00B37E68 /* Sesgoritma.mlmodel in Sources */,
+				EB6C4A51207429570085463E /* Sesgoritma.mlmodel in Sources */,
 				EB81772B2062DD10001B2023 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +297,7 @@
 				INFOPLIST_FILE = Sesgoritma/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sesgoritma.Sesgoritma;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardamavi.Sesgoritma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -315,7 +315,7 @@
 				INFOPLIST_FILE = Sesgoritma/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sesgoritma.Sesgoritma;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardamavi.Sesgoritma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
