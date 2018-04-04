@@ -2,24 +2,29 @@
 ### By Arda Mavi & Zeynep Dikle
 
 Vocalization sign language iOS App with deep learning.
-For now, this project works best in the white(or black) background and good light.
 
 ### The under construction!
-### New classes and documentation coming soon!
+### Documentation coming soon!
 
-|`Sign Language Digits` Demo|
+|Demo|
 |:-:|
-|<img src="Assets/Digit Data Demo - Sreenshot.jpeg" height="400">|
-|[Watch Demo Video](https://github.com/ardamavi/Vocalization-Sign-Language-iOS/blob/master/Assets/Digit%20Data%20-%20Demo%20Video.mov)|
+|<img src="Assets/Demo Gif.gif" height="400">|
+|[Watch Demo Videos &#128266; ](https://github.com/ardamavi/Vocalization-Sign-Language-iOS/tree/master/Assets)|
 
 In this project we create iOS app for our [Vocalize Sign Language](https://github.com/ardamavi/Vocalize-Sign-Language) project using CoreML with Swift.
 
-For more details of `Deep Learning` model, look up our [Vocalize-Sign-Language](https://github.com/ardamavi/Vocalize-Sign-Language) project.
+### Published `DataSet` and `Deep Learning Model`:
+For more details of `Deep Learning` model, look up our [github.com/ardamavi/Vocalize-Sign-Language](https://github.com/ardamavi/Vocalize-Sign-Language) project.
 
-In this project we use our own [Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset).
+We use our own [Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset).
+
+### Used `DataSet` and `Updated Model` coming soon!
+|Model Accuracy|
+|:-:|
+|<img src="Assets/Model_Accuracy.png" width="350">|
 
 ## Important Notes:
-- Install necessary modules with `sudo pip3 install -r requirements.txt` command.
+- If you want to use `Keras2CoreML`, Install necessary modules with `sudo pip3 install -r requirements.txt` command.
 ### Used Versions:
 - Swift: 4.0
 - XCode: 9.3
