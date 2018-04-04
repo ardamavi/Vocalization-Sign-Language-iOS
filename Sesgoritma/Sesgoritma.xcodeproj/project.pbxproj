@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB6C4A51207429570085463E /* Sesgoritma.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB6C4A50207429570085463E /* Sesgoritma.mlmodel */; };
 		EB81772B2062DD10001B2023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81772A2062DD10001B2023 /* AppDelegate.swift */; };
 		EB81772D2062DD10001B2023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81772C2062DD10001B2023 /* ViewController.swift */; };
 		EB8177302062DD10001B2023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB81772E2062DD10001B2023 /* Main.storyboard */; };
 		EB8177322062DD10001B2023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8177312062DD10001B2023 /* Assets.xcassets */; };
 		EB8177352062DD10001B2023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8177332062DD10001B2023 /* LaunchScreen.storyboard */; };
+		EB93E60220753D7700550E8F /* Sesgoritma.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB93E60120753D7700550E8F /* Sesgoritma.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EB6C4A50207429570085463E /* Sesgoritma.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Sesgoritma.mlmodel; sourceTree = "<group>"; };
 		EB8177272062DD10001B2023 /* Sesgoritma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesgoritma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB81772A2062DD10001B2023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB81772C2062DD10001B2023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +23,7 @@
 		EB8177312062DD10001B2023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8177342062DD10001B2023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB8177362062DD10001B2023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB93E60120753D7700550E8F /* Sesgoritma.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Sesgoritma.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		EBC67303206403850089B047 /* CoreML Models */ = {
 			isa = PBXGroup;
 			children = (
-				EB6C4A50207429570085463E /* Sesgoritma.mlmodel */,
+				EB93E60120753D7700550E8F /* Sesgoritma.mlmodel */,
 			);
 			path = "CoreML Models";
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB81772D2062DD10001B2023 /* ViewController.swift in Sources */,
-				EB6C4A51207429570085463E /* Sesgoritma.mlmodel in Sources */,
+				EB93E60220753D7700550E8F /* Sesgoritma.mlmodel in Sources */,
 				EB81772B2062DD10001B2023 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

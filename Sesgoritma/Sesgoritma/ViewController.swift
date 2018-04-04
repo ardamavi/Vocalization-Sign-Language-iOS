@@ -19,6 +19,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     var captureDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: AVCaptureDevice.Position.back)
     var def_bright = UIScreen.main.brightness // Default screen brightness
     var old_char = ""
+    let model = try? VNCoreMLModel(for: Sesgoritma().model)
     
     @IBOutlet var predictLabel: UILabel!
     @IBAction func stop_captureSession(_ sender: UIButton) {
@@ -100,8 +101,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
         guard let pixelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {return}
 
-        guard let model = try? VNCoreMLModel(for: Sesgoritma().model) else {return}
-        let request = VNCoreMLRequest(model: model){ (fineshedReq, err) in
+        
+        let request = VNCoreMLRequest(model: model!){ (fineshedReq, err) in
             
             guard let results = fineshedReq.results as? [VNClassificationObservation] else {return}
             guard let firstObservation = results.first else {return}
