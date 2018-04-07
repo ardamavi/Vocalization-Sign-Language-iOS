@@ -109,13 +109,13 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
             
             // print(firstObservation.identifier, firstObservation.confidence)
             DispatchQueue.main.async {
-                if firstObservation.confidence < 0.4{
+                if firstObservation.confidence < 0.5{
                     
                     // For secondary vocalization
-                    self.old_char = "Sesgoritma"
-                    self.predictLabel.text = self.old_char
+                    self.old_char = ""
+                    self.predictLabel.text = ""
                     
-                }else if self.old_char != String(firstObservation.identifier) && firstObservation.confidence > 0.7{
+                }else if self.old_char != String(firstObservation.identifier) && firstObservation.confidence > 0.9{
                     
                     self.predictLabel.text =  String(firstObservation.identifier)
                     

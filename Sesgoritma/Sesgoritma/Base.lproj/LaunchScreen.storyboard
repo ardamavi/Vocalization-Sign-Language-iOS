@@ -18,29 +18,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Arda Mavi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3Z-Zf-qyJ">
-                                <rect key="frame" x="16" y="505" width="179" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arda Mavi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3Z-Zf-qyJ">
+                                <rect key="frame" x="16" y="531" width="179" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zeynep Dikle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iue-Pa-trM">
-                                <rect key="frame" x="180" y="505" width="179" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zeynep Dikle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iue-Pa-trM">
+                                <rect key="frame" x="180" y="531" width="179" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sesgoritma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kB-9A-J8D">
-                                <rect key="frame" x="56" y="132" width="263" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8I7-iH-Paa">
+                                <rect key="frame" x="47" y="72" width="280" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="35b-lS-SJE"/>
+                                    <constraint firstAttribute="height" constant="280" id="hpW-as-C1Z"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="e3Z-Zf-qyJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2qF-27-JmQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iue-Pa-trM" secondAttribute="trailing" constant="16" id="9To-wS-AZ6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8I7-iH-Paa" secondAttribute="trailing" constant="47.5" id="I5f-5B-lRB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="e3Z-Zf-qyJ" secondAttribute="bottom" constant="106" id="RC8-Lb-uhT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iue-Pa-trM" secondAttribute="bottom" constant="106" id="Ueu-Ar-dHD"/>
+                            <constraint firstItem="iue-Pa-trM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="180" id="XJb-7G-IuL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e3Z-Zf-qyJ" secondAttribute="trailing" constant="180" id="bMQ-7x-rJp"/>
+                            <constraint firstItem="8I7-iH-Paa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="guc-aZ-Tzb"/>
+                            <constraint firstItem="8I7-iH-Paa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47.5" id="moa-WE-6JW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -49,4 +58,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Logo" width="1024" height="1024"/>
+    </resources>
 </document>
