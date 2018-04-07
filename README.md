@@ -18,10 +18,11 @@ For more details of `Deep Learning` model, look up our [github.com/ardamavi/Voca
 
 We use our own [Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset).
 
-### Used `DataSet` and `Updated Model` coming soon!
-|Model Accuracy|
-|:-:|
-|<img src="Assets/Model_Accuracy.png" width="350">|
+### Used `(New) DataSet` and `(Updated) Model` coming soon!
+
+|DataSet Examples|Model Accuracy|
+|:-:|:-:|
+|<img src="Assets/DataSet Examples.png" width="350">|<img src="Assets/Model_Accuracy.png" width="350">|
 
 ## Important Notes:
 - If you want to use `Keras2CoreML`, Install necessary modules with `sudo pip3 install -r requirements.txt` command.
