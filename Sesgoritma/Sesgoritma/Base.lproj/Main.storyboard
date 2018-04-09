@@ -163,13 +163,13 @@
                                     <segue destination="fbb-f0-qvC" kind="presentation" modalTransitionStyle="crossDissolve" id="6r2-eD-n8j"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF8-Fk-5JO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V1.0.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF8-Fk-5JO">
                                 <rect key="frame" x="171" y="358" width="33" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4ME-PN-7sd"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="33" id="NyM-0e-sur"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="0.25729691982269287" green="0.19462212920188904" blue="0.95301550626754761" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -328,6 +328,7 @@
         <image name="Sign Language Icon" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="6r2-eD-n8j"/>
         <segue reference="G4u-ca-1Nb"/>
         <segue reference="BH3-9A-t9d"/>
     </inferredMetricsTieBreakers>

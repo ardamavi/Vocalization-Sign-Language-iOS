@@ -15,7 +15,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     
     var captureSession = AVCaptureSession()
     let synth = AVSpeechSynthesizer()
-    var cameraPos = AVCaptureDevice.Position.back
+    var cameraPos = AVCaptureDevice.Position.front
     var captureDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: AVCaptureDevice.Position.back)
     var def_bright = UIScreen.main.brightness // Default screen brightness
     var old_char = ""
