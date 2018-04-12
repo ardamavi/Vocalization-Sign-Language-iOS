@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -163,7 +162,7 @@
                                     <segue destination="fbb-f0-qvC" kind="presentation" modalTransitionStyle="crossDissolve" id="6r2-eD-n8j"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V1.0.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF8-Fk-5JO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V1.0.2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF8-Fk-5JO">
                                 <rect key="frame" x="171" y="358" width="33" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4ME-PN-7sd"/>
@@ -328,8 +327,7 @@
         <image name="Sign Language Icon" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6r2-eD-n8j"/>
         <segue reference="G4u-ca-1Nb"/>
-        <segue reference="BH3-9A-t9d"/>
+        <segue reference="uCL-xM-7lU"/>
     </inferredMetricsTieBreakers>
 </document>

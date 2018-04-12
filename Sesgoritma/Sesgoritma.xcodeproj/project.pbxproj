@@ -296,7 +296,7 @@
 				COREML_CODEGEN_SWIFT_GLOBAL_MODULE = NO;
 				DEVELOPMENT_TEAM = WVHK6CF86V;
 				INFOPLIST_FILE = Sesgoritma/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesgoritma.Sesgoritma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,7 +316,7 @@
 				COREML_CODEGEN_SWIFT_GLOBAL_MODULE = NO;
 				DEVELOPMENT_TEAM = WVHK6CF86V;
 				INFOPLIST_FILE = Sesgoritma/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesgoritma.Sesgoritma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
