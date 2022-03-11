@@ -20,7 +20,8 @@ For more details of `Deep Learning` model, look up our [github.com/ardamavi/Voca
 
 We use our own [Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset).
 
-### Used `(New) DataSet` and `(Updated) Model` coming soon!
+### New dataset is available on Kaggle: [ 27 Class Sign Language Dataset - Kaggle](https://www.kaggle.com/ardamavi/27-class-sign-language-dataset)
+### Used `(Updated) Model` coming soon!
 
 |DataSet Examples|Model Accuracy|
 |:-:|:-:|
